@@ -66,7 +66,7 @@ function App() {
               <Card key={item.id} item={item} handleChoice={handleChoice} visable={item === choiceOne || item === choiceTwo || item.matched}/>
             ))}
         </div>
-        {turns && <h2 className='text-2xl text-white '>Turns: {turns}</h2>}
+        {turns && <h2 className='text-2xl font-bold text-white '>Turns: {turns}</h2>}
       </div>
     </div>
   );
