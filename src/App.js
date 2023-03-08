@@ -58,7 +58,7 @@ function App() {
 
   return (
     <div className="App">
-      <div className='container-full h-screen flex justify-center flex-col items-center gap-10'>
+      <div className='container-full h-screen pt-20 flex md:justify-center md:pt-0 flex-col items-center gap-10'>
       <h1 className='text-3xl md:text-5xl font-bold text-white'>Memory game</h1>
       <button className=' bg-[#34aee6] rounded py-2 px-5 text-white' onClick={resetGame}>New Game</button>
         <div className='w-[350px] h-[400px] md:w-[800px] md:h-[500px] grid grid-cols-4 gap-4 bg-] text-white text-6xl' >
