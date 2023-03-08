@@ -59,14 +59,14 @@ function App() {
   return (
     <div className="App">
       <div className='container-full h-screen flex justify-center flex-col items-center gap-10'>
-      <h1 className='text-3xl md:text-5xl font-bold underline'>Memory game</h1>
-      <button className=' bg-cyan-800 rounded py-2 px-5 text-white' onClick={resetGame}>New Game</button>
+      <h1 className='text-3xl md:text-5xl font-bold text-white'>Memory game</h1>
+      <button className=' bg-[#34aee6] rounded py-2 px-5 text-white' onClick={resetGame}>New Game</button>
         <div className='w-[350px] h-[400px] md:w-[800px] md:h-[500px] grid grid-cols-4 gap-4 bg-] text-white text-6xl' >
             {data.map(item => (
               <Card key={item.id} item={item} handleChoice={handleChoice} visable={item === choiceOne || item === choiceTwo || item.matched}/>
             ))}
         </div>
-        {turns && <h2 className='text-2xl'>Turns: {turns}</h2>}
+        {turns && <h2 className='text-2xl text-white '>Turns: {turns}</h2>}
       </div>
     </div>
   );

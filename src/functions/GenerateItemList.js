@@ -8,7 +8,7 @@ export default function GenerateItemList() {
             const rgbColor = [];
     
             for(let j = 0; j < 3; j++){
-            const randomNum = Math.floor(Math.random() * 250);
+            const randomNum = Math.floor(Math.random() * 450);
     
             rgbColor.push(randomNum);
             }
